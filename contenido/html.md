@@ -4,7 +4,7 @@
 
 [HTML](https://developer.mozilla.org/es/docs/Web/HTML) significa [HyperText Markup Language](https://es.wikipedia.org/wiki/HTML) o lenguaje de marcas de hipertexto y se utiliza para estructurar documentos web.
 
-Un lenguaje de marcas utiliza etiquetas para definir estructuras y mostrar distintos tipos de datos como pueden ser textos, imagenes, videos, etc.
+Un lenguaje de marcas utiliza etiquetas para definir estructuras y mostrar distintos tipos de datos como pueden ser textos, imágenes, videos, etc.
 
 Podemos decir que el HTML describe la estructura de nuestro documento o página utilizando etiquetas (tags).
 
@@ -12,7 +12,7 @@ Para conocer más sobre los distintos tipos de etiquetas podemos utilizar el sit
 
 Existen diferentes versiones de HTML y en la actualidad utilizamos la versión de [HTML5](https://es.wikipedia.org/wiki/HTML5).
 
-Muchas paginas web son la versión electrónica de documentos reales. Por ejemplo en [lanacion.com.ar](http://www.lanacion.com.ar) podemos encontrar la versión digital del contenido que sale publicado en el diario de manera física.
+Muchas páginas web son la versión electrónica de documentos reales. Por ejemplo en [lanacion.com.ar](http://www.lanacion.com.ar) podemos encontrar la versión digital del contenido que sale publicado en el diario de manera física.
 
 En la publicación [Carreras de drones: cómo entrenan y quiénes compiten en la Argentina](http://www.lanacion.com.ar/2020025-carreras-de-drones-como-entrenan-y-quienes-compiten-en-la-argentina) podemos ver un claro ejemplo de como estructurar una noticia.
 
@@ -51,7 +51,7 @@ Drones
 
 **Y sin duda lo mejor de la nación, una lista de comentarios.**
 
-En un artículo más largo podemos encontrar más secciones con otros títulos, textos e imagenes. Estas estructuras ayudan al leector a entender la noticia y de alguna forma estamos acostumbrados a este formato. También podemos hacer un análisis similar en un blog post como puede ser [medium.com](https://medium.com/@kentcdodds/classes-complexity-and-functional-programming-a8dd86903747).
+En un artículo más largo podemos encontrar más secciones con otros títulos, textos e imágenes. Estas estructuras ayudan al lector a entender la noticia y de alguna forma estamos acostumbrados a este formato. También podemos hacer un análisis similar en un blog post como puede ser [medium.com](https://medium.com/@kentcdodds/classes-complexity-and-functional-programming-a8dd86903747).
 
 De alguna forma estamos acostumbrados a este tipo de estructuras gracias a los diarios u otro tipo de publicación física similar. Ahora bien, qué pasa cuando tenemos que estructurar otro tipo de documentos como puede ser un Twit?
 
@@ -149,7 +149,7 @@ Una etiqueta esta compuesta por:
 ```
 
 **Ejemplo de un elemento con otro elemento:**
-En el siguiente ejemplo tenemos una etiqueta (no sabemso de que tipo) que tiene como contenido un texto (Bienvenidos a HTML!!) y una imagen que por ahora no sabemos cual es.
+En el siguiente ejemplo tenemos una etiqueta (no sabemos de que tipo) que tiene como contenido un texto (Bienvenidos a HTML!!) y una imagen que por ahora no sabemos cual es.
 
 En este ejemplo vemos que el texto y la imagen tienen un márgen izquierdo para visualizar de forma rápida y fácil que son contenido del elemento llamado tipoDeEtiqueta. Esta técnica se conoce como [identación o identado](https://es.wikipedia.org/wiki/Indentaci%C3%B3n) y es una buena práctica para evitar tener problema a la hora de armar documentos con estructuras más complejas.
 
@@ -205,7 +205,7 @@ Dentro de la etiqueta HTML vamos a tener una sección donde podemos describir co
 ```
 
 #### BODY
-* El browser va a renderizar todo el contenido que esta dentro de este elemento. Podemos decir que es todo lo que vemos en pantalla.
+* El browser va a renderizar todo el contenido que está dentro de este elemento. Podemos decir que es todo lo que vemos en pantalla.
 
 ```html
 <body></body>
@@ -237,7 +237,7 @@ Dentro de la etiqueta HTML vamos a tener una sección donde podemos describir co
 * Los títulos utilizan la etiqueta **h** y el número de tipo de título.
 * El browser por defecto muestra la diferencia entre los títulos utilizando una tipografía más grande para el H1 y la más pequeña para el H6.
 * Más adelante nosotros vamos a definir como se ven los títulos de nuestro documento.
-* Conceptualmente debemos utilizar los títulos en orden respetando su gerarquía. (primero el h1, después el 2, etc)
+* Conceptualmente debemos utilizar los títulos en orden respetando su jerarquía. (primero el h1, después el 2, etc)
 
 **Ejemplos:**
 ```html
